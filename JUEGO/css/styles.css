@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(23, 160, 229);
+}
+
+.container{
+    background: white;
+    height: 50vh;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    
+}
+
+.container h1{
+    font-size: 45px;
+}
+
+.num{
+    font-size: 60px;
+}
+
+.botons{
+    width: 90px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    box-shadow: 3px 3px 25px rgb(8, 8, 8);
+}
